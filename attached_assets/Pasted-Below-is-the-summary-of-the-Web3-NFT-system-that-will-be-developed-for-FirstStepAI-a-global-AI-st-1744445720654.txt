@@ -1,0 +1,99 @@
+Below is the summary of the Web3 & NFT system that will be developed for FirstStepAI, a global AI startup with a community-driven approach.
+
+📌 1. PROJECT OVERVIEW
+Project Name: FirstStepAI Web3 Identity System
+
+Goal: To build a decentralized digital identity system for users, using NFTs combined with a community contribution model.
+
+🛠️ 2. FEATURE SCOPE
+NFT Soul ID (Non-Transferrable, Unique Per User)
+
+1 user = 1 unique NFT (not a tradable collection)
+
+NFTs are non-transferable by default
+
+Can be inherited with internal approval process
+
+Trust-to-Earn System
+
+User earns points through active contribution (not staking)
+
+Points used to access voting, level upgrades, and internal rewards
+
+Voting DAO (Limited Community)
+
+Voting system based on trust scores
+
+Access limited to active and trusted users
+
+User & Admin Dashboards
+
+User: view NFT, trust score, badges
+
+Admin: approval management, verification, score reset, reputation control
+
+Web3 Wallet Login
+
+Integration with MetaMask, WalletConnect, and Phantom
+
+Approval-Based NFT Transfer
+
+NFTs cannot be freely traded
+
+Transfer requires system validation and approval
+
+Public Contribution Log ("Flame Log")
+
+Public log of user activity and contributions
+
+Functions as a transparent reputation system
+
+Smart Contract + Backend Integration
+
+Fully connected to main website
+
+Open-source and auditable
+
+🧱 3. PREFERRED TECHNOLOGIES
+Blockchain: Solana or Polygon (we are open to discussion)
+
+Front End: Any modern framework — must be clean, responsive, and accessible
+
+Wallet Support: MetaMask, WalletConnect, Phantom
+
+🚀 Developer Wanted
+We are building a global Web3-based community platform, and we’re looking for a Web3 Developer to support the development of:
+
+NFT User Access
+(1 unique NFT per user — not mass collectible)
+
+Contribution-Based Reward System
+(users earn points from active participation, not staking)
+
+Simplified DAO Voting System
+(value-based access, not overly complex governance)
+
+NFT Transfer Approval Flow
+(transfers between users require system-level approval)
+
+🔧 Additional Requirements
+Clean and functional User & Admin Dashboards
+
+Web3 Wallet Login (MetaMask / WalletConnect / Phantom)
+
+Preferably familiar with Polygon or Solana ecosystems
+
+Design must be modern, responsive, and user-friendly (Replit UI must reflect quality)
+
+✅ Replit Requirements (Make this clear to your Replit project)
+When you build this on Replit:
+
+Ensure wallet connection is smooth (use libraries like web3.js, ethers.js, or solana/web3.js)
+
+Use a clean and professional design (TailwindCSS or any UI framework of your choice)
+
+Integrate a smart contract interaction layer
+
+Store data (contribution points, NFT metadata) securely and transparently
+
+Consider using Replit DB for testing, or integrate with Polygon/Solana testnet
