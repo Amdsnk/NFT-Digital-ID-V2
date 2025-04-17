@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/generated-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Soul Dashboard</title>
+    <script>
+      // This script ensures the app loads the correct route
+      // Handle direct access to admin/admin-login routes
+      window.addEventListener('DOMContentLoaded', function() {
+        console.log('DOMContentLoaded - Path:', window.location.pathname);
+        
+        // Special handling for admin routes with direct URLs
+        const path = window.location.pathname;
+        
+        if (path === '/admin-login' && !window.location.hash) {
+          console.log('Redirecting to hash-based admin-login route');
+          window.location.replace('/#/admin-login');
+        } else if (path.startsWith('/admin') && !window.location.hash) {
+          console.log('Redirecting to hash-based admin route');
+          window.location.replace('/#/admin');
+        }
+      });
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>
